@@ -1,1 +1,1 @@
-# crmode
+# resources

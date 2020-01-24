@@ -1,0 +1,86 @@
+/* GLOBALES */
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-family: Roboto;
+  text-decoration: none;
+}
+body {
+  margin: 20px;
+}
+#envoltorio {
+  background-color: aliceblue;
+}
+main,
+footer {
+  /* background: lightblue; */
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+main {
+  min-height: 400px;
+  text-align: center;
+}
+footer {
+  min-height: 200px;
+}
+
+/* CONTENIDO */
+
+/* === Header */
+.nav-bar {
+  padding: 10px;
+  display: flex;
+  min-height: 100px;
+  justify-content: center;
+}
+.nav-bar h1 {
+  width: 20%;
+  /* color: aliceblue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-nav {
+  display: flex;
+  width: 100%;
+}
+.main-nav ul {
+  display: flex;
+  width: 80%;
+}
+.main-nav ul li {
+  box-shadow: 0px 0px 1px rgb(240, 240, 240);
+  display: flex;
+  flex: 1;
+}
+
+.main-nav ul li a {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  /* color: aliceblue; */
+}
+.main-nav ul li a:hover {
+  background-color: #201c2e;
+}
+
+.search-box {
+  width: 10%;
+  color: aliceblue;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+/* main */
+main img {
+  width: 10%;
+}
+
+@media (max-width: 470px) {
+}

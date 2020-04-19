@@ -1,3 +1,1 @@
-      <!-- <span>MAIN</span> -->
-      <img src="assets/img/logo.jpg" alt="">
-      <!-- <article>contenido</article> -->
+<div class="main-logo">CrMoDe<img src="assets/img/logo.png" alt=""></div>

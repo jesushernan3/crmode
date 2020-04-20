@@ -5,15 +5,17 @@
 <main class="container">
   <section class="manifiesto module">
     <h2>A higher plain</h2>
-    <p>Creamos marcas y hermosos sitios web para clientes que necesitan un poco de ayuda para crear algo realmente especial. Lo hacemos con amor en Brighton para clientes de todo el mundo y también podemos hacerlo por usted ...</p>
+    <p>Zapatero a su zapato...<br>
+    Con tanto bombardeo marketinero de sitios como Wix de "hazlo tu propio sitio" e inclusive "hazlo todo tu mismo"... nos encontramos con la neceidad de decirte por un lado: "no se puede hacer todo, todo el tiempo", y por otro "para crecer hay que delegar".</p>
+    <p>Te brindamos el mejor apoyo para tu proyecto desde un simple sitioweb personal, hasta complejas soluciones de ecommerce. Todo esto con la idea principal de Tu Crecimiento es Nuestro Crecimiento.</p>
   </section>
 
   <section id="servicios" class="module">
     <div class="row d-flex-centered f-direction-column">
-      <h2 class="module-title">Our Services</h2>
+      <h2 class="module-title">Nuestros Servicios</h2>
       <div class="caja-parrafo">
-        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi minima porro earum at labore, placeat vitae in eaque alias, sint pariatur deleniti, rerum soluta et explicabo corporis? Excepturi, reiciendis animi.</p>
+        <p>Te ofrecemos dos corrientes fundamentales para cualquier proyecto; el desarrollo de tu plataforma de expresión, y también la administración de la misma. Puedes elejir uno, el otro o combinarlo según tus necesidades y presupuesto.</p>
+       
       </div>
     </div>
     <div class="row">
@@ -55,6 +57,7 @@
 
   <section id="contacto" class="module">
   <h2 class="module-title">Contacto</h2>
+  <h3 class="module-subtitle">Cualqueir duda, no dudes en contactarnos</h3>
     <div class="caja-formulario">
     <div class="field">
       <label class="label">Nombre</label>
@@ -71,7 +74,9 @@
     <div class="field">
       <label class="label">Mensaje</label>
       <div class="control">
-        <textarea class="textarea" placeholder="Tu mensaje aqui"></textarea>
+        <textarea class="textarea" placeholder="Tu mensaje aqui">
+
+        </textarea>
       </div>
     </div>
     <div class="field">

@@ -93,6 +93,10 @@ h1,h2,h3,h4,h5,h6 {
 .clearfix {
   clear: both;
 }
+.row {
+  content: "";
+  display: table;
+}
 /* Header
  ==================================*/
 header {
@@ -102,7 +106,7 @@ header {
  .main-nav ul {
    display: flex;
    justify-content: space-between;
-   width: 600px;
+   max-width: 600px;
    margin: 0 auto;
    align-items: center;
  }
@@ -126,6 +130,9 @@ header {
 }
 .main-nav .logo a {
 	border-bottom: none;
+}
+.logo-mobile {
+  display: none;
 }
 
 /* Index
@@ -215,11 +222,10 @@ letter-spacing: 2px;
   min-height: 500px;
 }
 .caja-formulario {
-  margin-left: 200px;
+  margin-left: 20%;
 }
 input, textarea, button {
-  border: 3px solid #999;
-  border-radius: 25px;
+  border: 3px solid #333;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
@@ -245,13 +251,75 @@ button {
  .footer-top, .footer-bottom {
    position: relative;
  }
- .contact-widget, .text-widget {
+ .contact-widget, .text-widget, .contact-widget h4, .text-widget h4 {
    margin-bottom: 70px;
  }
+ .contact-widget h4, .text-widget h4, .contact-widget ul li, .footer-bottom p {
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   font-weight: 300;
+ }
+ .contact-widget ul li {
+   font-family: 'Roboto Condensed', serif;
+   font-size: 0.8rem;
+   line-height: 25px;
+ }
+ .text-widget p {
+   font-size: 0.8rem;
+   letter-spacing: 1px;
+   line-height: 25px;
+ }
+ .contact-widget ul li span {
+    margin-left: -27px;
+    padding-right: 14px;
+  }
+ .contact-widget ul li span.icon-envelope {
+    padding-right: 7px;
+  }
+  .contact-widget ul {
+    margin-left: 27px;
+  }
  
 
 /*================================
  Media Queries
 ==================================*/
+@media (max-width: 1118px) {
+  .col-25 {
+    width: 33%;
+  }
+}
+@media (max-width: 856px) {
+  .col-25 {
+    width: 50%;
+  }
+}
+@media (max-width: 474px) {
+  /*··························· Nav Bar  */
+  .main-nav ul li.logo {
+    display: none;
+  }
+  .logo-mobile {
+    display: block;
+    margin-bottom: 25px;
+  }
 
-@media (max-width: 470px) {}
+  /*··························· Contenido  */
+  .module {
+    padding: 50px 0;
+  }
+  .manifiesto p {
+    margin: 20px 10px;
+  }
+  .col-25 {
+    width: 100%;
+  }
+
+  /*··························· Footer  */
+  .col-50 {
+    width: 100%;
+  }
+  .contact-widget ul, .text-widget p {
+    margin-left: 35px;
+  }
+}

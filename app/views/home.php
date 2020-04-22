@@ -22,36 +22,36 @@
       <div class="col-25 d-flex-centered f-direction-column servicio">
         <span class="icon-lightbulb"></span>
         <h4>Ideas y Conceptos</h4>
-        <p>Careful attention to detail and clean, well structured code ensures a smooth user experience for all your visitors.</p>
+        <p>Todo inicio hasta tu final, tiene como base una idea, un concepto. Tratamos de ser lo más claro y expeditivos con el génesis de los proyectos, principalmento con la ideas.</p>
       </div>
       <div class="col-25 d-flex-centered f-direction-column servicio">
         <span class="icon-bike"></span>
         <h4>Optimisado para velocidad</h4>
-        <p>Careful attention to detail and clean, well structured code ensures a smooth user experience for all your visitors.</p></div>
+        <p>Antes de todo, tenemos la prioridad de que tu proyecto salga lo más fluido posible para cualquier plataforma disponible.</p></div>
       <div class="col-25 d-flex-centered f-direction-column servicio">
         <span class="icon-tools"></span>
         <h4>Diseño e Interface</h4>
-        <p>Careful attention to detail and clean, well structured code ensures a smooth user experience for all your visitors.</p></div>
+        <p>Desde los comienzos de internet ha sido uno de los elementos clave para que...</p></div>
       <div class="col-25 d-flex-centered f-direction-column servicio">
         <span class="icon-gears"></span>
-        <h4>Customizable</h4>
-        <p>Careful attention to detail and clean, well structured code ensures a smooth user experience for all your visitors.</p></div>
+        <h4>Personalización</h4>
+        <p>Partiendo siempre de una base, siempre te vamos a proponer que tu proyecto sea fluido, y por ende sumamente personabilizable</p></div>
       <div class="col-25 d-flex-centered f-direction-column servicio">
         <span class="icon-tools-2"></span>
         <h4>Codigo y Desarrollo</h4>
-        <p>Careful attention to detail and clean, well structured code ensures a smooth user experience for all your visitors.</p></div>
+        <p>Simple, elegante y accesible.</p></div>
       <div class="col-25 d-flex-centered f-direction-column servicio">
         <span class="icon-genius"></span>
         <h4>Plugin y Cpntenido</h4>
-        <p>Careful attention to detail and clean, well structured code ensures a smooth user experience for all your visitors.</p></div>
+        <p>Sumale a tus sitios funcionalidades adicionales.</p></div>
       <div class="col-25 d-flex-centered f-direction-column servicio">
         <span class="icon-mobile"></span>
         <h4>Diseño Responsivo</h4>
-        <p>Careful attention to detail and clean, well structured code ensures a smooth user experience for all your visitors.</p></div>
+        <p>En estos dias con tanta predominancia de los telefonos celulares, hacemos en todos nuestros proyectos que sean adaptados a todos los dispositivos mobiles.</p></div>
       <div class="col-25 d-flex-centered f-direction-column servicio">
         <span class="icon-lifesaver"></span>
         <h4>Soporte Dedicado</h4>
-        <p>Careful attention to detail and clean, well structured code ensures a smooth user experience for all your visitors.</p></div>
+        <p>Soporte tecnico dedicado a cada necesidad.</p></div>
     </div>
   </section>
 
@@ -62,13 +62,13 @@
     <div class="field">
       <label class="label">Nombre</label>
       <div class="control">
-      <input class="input" type="text" placeholder="e.g Alex Smith">
+      <input class="input" type="text" placeholder="Tu nombre aqui">
       </div>
     </div>
     <div class="field">
       <label class="label">Email</label>
       <div class="control">
-        <input class="input" type="email" placeholder="e.g. alexsmith@gmail.com">
+        <input class="input" type="email" placeholder="tu email aqui">
       </div>
     </div>
     <div class="field">

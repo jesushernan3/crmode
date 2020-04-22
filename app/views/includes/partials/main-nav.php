@@ -1,4 +1,5 @@
 <nav class="main-nav">
+  <a class="logo-mobile" href="<?php echo $raiz;?>"><img src="/public/img/logo.png" alt=""></a>
   <ul>
     <li class="text-left"><a href="#servicios">Servicios</a></li>
     <li class="logo"><a href="<?php echo $raiz;?>"><img src="/public/img/logo.png" alt=""></a></li>

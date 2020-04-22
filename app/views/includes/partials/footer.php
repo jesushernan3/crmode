@@ -3,12 +3,14 @@
     <section class="col-50 contact-widget">
       <h4>Contacto</h4>
       <ul>
-        <li>Locacion</li>
-        <li>Tel</li>
-        <li>Email</li>
+        <li><span class="icon-map-pin"></span>Ciudad de Buenos Aires <br>
+            Prov. de Buenos Aires, <br>
+            Argentina </li>
+        <li><span class="icon-phone"></span>941-388-7775</li>
+        <li><span class="icon-envelope"></span>info@crmode.com</li>
       </ul>
     </section>
-    <section class="col-50">
+    <section class="col-50 text-widget">
       <h4>Acerca</h4>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit quo quas nihil quia eum omnis natus necessitatibus fugiat minus, excepturi voluptatem error nemo molestias deleniti suscipit, soluta perspiciatis doloremque asperiores.</p>
     </section>

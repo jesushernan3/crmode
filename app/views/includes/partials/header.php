@@ -1,4 +1,3 @@
 <header class="container">
-<?php include('main-nav.php'); ?>
-
+  <?php include('main-nav.php'); ?>
 </header>

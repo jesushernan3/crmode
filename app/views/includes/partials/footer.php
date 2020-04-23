@@ -1,6 +1,6 @@
 <footer class="container">
-  <div class="footer-top">
-    <section class="col-50 contact-widget">
+  <div class="footer-top columns">
+    <section class="column is-mobile contact-widget">
       <h4>Contacto</h4>
       <ul>
         <li><span class="icon-map-pin"></span>Ciudad de Buenos Aires <br>
@@ -10,7 +10,7 @@
         <li><span class="icon-envelope"></span>info@crmode.com</li>
       </ul>
     </section>
-    <section class="col-50 text-widget">
+    <section class="column is-mobile text-widget">
       <h4>Acerca</h4>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit quo quas nihil quia eum omnis natus necessitatibus fugiat minus, excepturi voluptatem error nemo molestias deleniti suscipit, soluta perspiciatis doloremque asperiores.</p>
     </section>

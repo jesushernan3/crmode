@@ -108,39 +108,29 @@ header {
 .logo-mobile {
   display: none;
 }
-
-/* Index
- ==================================*/
-.index-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 100vh;
-}
-.index-container a {
-  font-family: Fredoka;
-  font-size: 2rem;
+/*=======================================
+ Main (reglas comunes a todas las vistas)
+=========================================*/
+.manifiesto {
   text-align: center;
 }
-.index-container img {
-  width: 50%;
+.manifiesto h1, .manifiesto h2 {
+  font-size: 5rem;
+  font-weight: lighter;
+  text-transform: uppercase;
 }
-/* ====================
-          Main
- =====================*/
- .manifiesto {
-   text-align: center;
- }
- .manifiesto h2 {
-   font-size: 3rem;
-   font-weight: lighter;
- }
- .manifiesto p {
-	font-size: 1.3rem;
-	font-weight: lighter;
-	color: #707070;
-	margin: 30px 100px;
+.manifiesto h2 {
+  font-size: 3rem;
+  margin-top: unset;
+}
+.content h2:not(:first-child) {
+  margin-top: unset;
+}
+.manifiesto p {
+ font-size: 1.3rem;
+ font-weight: lighter;
+ color: #707070;
+ margin: 30px 100px;
 }
 .module-title, .module-subtitle {
 	position: relative;
@@ -159,9 +149,19 @@ header {
 	position: relative;
 	padding: 80px 0;
 }
+.caja-parrafo {
+	font-size: 1.3rem;
+	font-weight: lighter;
+	color: #707070;
+  margin: 70px auto;
+  max-width: 810px;
+  text-align: center;
+}
 
-/* Servicios
- ==================================*/
+/* Home View
+ =====================*/
+ 
+/*··························· Home -> Servicios  */
 #servicios {
   min-height: 500px;
 }
@@ -183,45 +183,52 @@ text-align: center;
 .servicio span {
 	font-size: 2rem;
 }
-
-.caja-parrafo {
-	font-size: 1.3rem;
-	font-weight: lighter;
-	color: #707070;
-  margin: 30px auto;
-  max-width: 800px;
-  text-align: center;
-  
+.is-half .frame.caja-parrafo h2,
+.is-half .frame.caja-parrafo a {
+	margin: 20px 0;
 }
-/* :::::::::: Vista Sitios Web :::::::::: */
-#landing-pages h4 {
+.is-half .frame.caja-parrafo h2 {
+  text-transform: uppercase;
+}
+.is-half .frame.caja-parrafo h2,
+.is-half .frame.caja-parrafo a {
+  font-size: 1rem;
+}
+.is-half .frame.caja-parrafo {
+	padding: 50px 0;
+}
+
+/*================================
+ Sitios Web - Vista
+==================================*/
+.product h4 {
   text-transform: uppercase;
   font-size: 1.2rem;
   margin-top: 20px;
   margin-bottom: 0;
   text-align: center;
 }
-#landing-pages h2 {
+.product h2 {
   font-size: 3rem;
   position: relative;
 }
-#landing-pages h4::after {
+.product h4::after {
 	border-bottom: 1px solid #afafaf;
 	content: "";
 	display: block;
 	width: 30px;
 	margin: 6px auto;
 }
-#landing-pages h4 span {
+.product h4 span {
   color: #c054c0;
 }
-#landing-pages li {
+.product li {
 	border-top: 1px solid #AFAFAF;
 	padding: 10px 0;
 	text-align: center;
 	font-size: .9rem;
 }
-#landing-pages li:last-child {
+.product li:last-child {
 	border-bottom: 1px solid #AFAFAF;
 }
 .frame {
@@ -238,10 +245,13 @@ text-align: center;
 }
 .a-partir::before {
   content: "a partir de";
-  font-family: 0.8rem;
+  font-size: 0.8rem;
   position: absolute;
   right: 5px;
 }
+/*================================
+ nombre
+==================================*/
 
 /* Contacto
  ==================================*/
@@ -263,16 +273,16 @@ text-align: center;
 .caja-formulario {
   margin: 0 15px;
 }
-input, textarea, button {
+input, textarea, .button {
   border: 1px solid #777;
   padding: 12px 20px;
   margin: 20px 0 0;
   box-sizing: border-box;
 }
-.input:focus, footer textarea:focus, button:hover {
+.input:focus, footer textarea:focus, .button:hover {
 	box-shadow: 0px 1px 8px 1px #777;
 }
-button {
+.button {
   cursor: pointer;
 }
 .field {
@@ -312,6 +322,7 @@ button {
  .contact-widget ul li span {
     margin-left: -27px;
     padding-right: 14px;
+    color: #c054c0;
   }
  .contact-widget ul li span.icon-envelope {
     padding-right: 7px;
@@ -356,9 +367,7 @@ button {
   }
 
   /*··························· Footer  */
-  .col-50 {
-    width: 100%;
-  }
+  
   .contact-widget ul, .text-widget p {
     margin-left: 35px;
   }

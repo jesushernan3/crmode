@@ -5,7 +5,7 @@
 <main class="container">
 
   <section class="manifiesto module">
-    <h2>A higher plain</h2>
+    <h1>A higher plain</h1>
     <p>Zapatero a su zapato...<br>
     Con tanto bombardeo marketinero de sitios como Wix de "hazlo tu propio sitio" e inclusive "hazlo todo tu mismo"... nos encontramos con la neceidad de decirte por un lado: "no se puede hacer todo, todo el tiempo", y por otro "para crecer hay que delegar".</p>
     <p>Te brindamos el mejor apoyo para tu proyecto desde un simple sitioweb personal, hasta complejas soluciones de ecommerce. Todo esto con la idea principal de Tu Crecimiento es Nuestro Crecimiento.</p>
@@ -54,6 +54,21 @@
         <span class="icon-lifesaver"></span>
         <h4>Soporte Dedicado</h4>
         <p>Soporte tecnico dedicado a cada necesidad.</p></div>
+    
+    <div class="column is-half">
+      <div class="frame caja-parrafo">
+        <span class="icon-presentation"></span>
+        <h2>Sitios Web</h2>
+        <a href="app/views/content/sitios-web">+ información de los precios aqui</a>
+      </div>
+    </div>
+    <div class="column is-half">
+      <div class="frame caja-parrafo">
+      <span class="icon-pencil"></span>
+        <h2>Servicios Administrativo</h2>
+        <a href="app/views/content/servicios-admin">+ información de los precios aqui</a>
+      </div>
+    </div>
     </div>
   </section>
 

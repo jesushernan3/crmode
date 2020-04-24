@@ -198,14 +198,51 @@ text-align: center;
   text-transform: uppercase;
   font-size: 1.2rem;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 0;
+  text-align: center;
+}
+#landing-pages h2 {
+  font-size: 3rem;
+  position: relative;
+}
+#landing-pages h4::after {
+	border-bottom: 1px solid #afafaf;
+	content: "";
+	display: block;
+	width: 30px;
+	margin: 6px auto;
 }
 #landing-pages h4 span {
   color: #c054c0;
 }
-.column > span {
+#landing-pages li {
+	border-top: 1px solid #AFAFAF;
+	padding: 10px 0;
+	text-align: center;
+	font-size: .9rem;
+}
+#landing-pages li:last-child {
+	border-bottom: 1px solid #AFAFAF;
+}
+.frame {
+  border: 1px solid #AFAFAF;
+  padding: 20px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.frame:hover {
+  border: 1px solid #333
+}
+.column .frame > span {
   font-size: 2rem;
 }
+.a-partir::before {
+  content: "a partir de";
+  font-family: 0.8rem;
+  position: absolute;
+  right: 5px;
+}
+
 /* Contacto
  ==================================*/
  .input:focus, .textarea:focus, .select select:focus, .is-focused.input, .is-focused.textarea, .select select.is-focused, .input:active, .textarea:active, .select select:active, .is-active.input, .is-active.textarea, .select select.is-active {
@@ -227,15 +264,14 @@ text-align: center;
   margin: 0 15px;
 }
 input, textarea, button {
-  border: 3px solid #333;
+  border: 1px solid #777;
   padding: 12px 20px;
-  margin: 8px 0;
+  margin: 20px 0 0;
   box-sizing: border-box;
 }
 .input:focus, footer textarea:focus, button:hover {
 	box-shadow: 0px 1px 8px 1px #777;
 }
-
 button {
   cursor: pointer;
 }

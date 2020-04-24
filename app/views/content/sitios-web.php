@@ -22,45 +22,61 @@
     </div>
 
     <div class="columns">
-      <div class="column is-one-quarter is-mobile d-flex-centered f-direction-column">
-        <span class="icon-lightbulb"></span>
-        <h4>Landing Page <span>Basica</span></h4>
-        <ul>
-          <li>4 Secciones</li>
-          <li>Links a redes sociales</li>
-          <li>3 opciones de plantilla</li>
-          <li>Diseño totalmente responsive</li>
-        </ul>
+      <div class="column is-one-quarter is-mobile">
+        <div class="frame d-flex-centered f-direction-column">
+          <span class="icon-lightbulb"></span>
+          <h4>Landing Page <span>Basica</span></h4>
+          <h2>$1500</h2>
+          <ul>
+            <li>4 Secciones</li>
+            <li>Links a redes sociales</li>
+            <li>3 opciones de diseño</li>
+            <li>Diseño totalmente responsive</li>
+          </ul>
+          <button>+ info</button>
       </div>
-      <div class="column is-one-quarter is-mobile d-flex-centered f-direction-column">
-        <span class="icon-bike"></span>
-        <h4>Landing Page <span>Normal</span></h4>
-        <ul>
-          <li>4 Secciones</li>
-          <li>Links a redes sociales</li>
-          <li>3 opciones de plantilla</li>
-          <li>Diseño totalmente responsive</li>
-        </ul>
       </div>
-      <div class="column is-one-quarter is-mobile d-flex-centered f-direction-column">
-        <span class="icon-tools"></span>
-        <h4>Landing Page <span>Completa</span></h4>
-        <ul>
-          <li>4 Secciones</li>
-          <li>Links a redes sociales</li>
-          <li>3 opciones de plantilla</li>
-          <li>Diseño totalmente responsive</li>
-        </ul>
+      <div class="column is-one-quarter is-mobile">
+        <div class="frame d-flex-centered f-direction-column">
+          <span class="icon-bike"></span>
+          <h4>Landing Page <span>Normal</span></h4>
+          <h2>$2500</h2>
+          <ul>
+            <li>5 Secciones</li>
+            <li>Links a redes sociales</li>
+            <li>3 opciones de diseño</li>
+            <li>Diseño totalmente responsive</li>
+          </ul>
+          <button>+ info</button>
+        </div>
       </div>
-      <div class="column is-one-quarter is-mobile d-flex-centered f-direction-column">
-        <span class="icon-gears"></span>
-        <h4>Landing Page <span>Premium</span></h4>
-        <ul>
-          <li>4 Secciones</li>
-          <li>Links a redes sociales</li>
-          <li>3 opciones de plantilla</li>
-          <li>Diseño totalmente responsive</li>
-        </ul>
+      <div class="column is-one-quarter is-mobile">
+        <div class="frame d-flex-centered f-direction-column">
+          <span class="icon-tools"></span>
+          <h4>Landing Page <span>Completa</span></h4>
+          <h2>$3500</h2>
+          <ul>
+            <li>6 Secciones</li>
+            <li>Links a redes sociales</li>
+            <li>5 opciones de diseño</li>
+            <li>Diseño totalmente responsive</li>
+          </ul>
+          <button>+ info</button>
+        </div>
+      </div>
+      <div class="column is-one-quarter is-mobile">
+        <div class="frame d-flex-centered f-direction-column">
+          <span class="icon-gears"></span>
+          <h4>Landing Page <span>Premium</span></h4>
+          <h2 class="a-partir">$5500</h2>
+          <ul>
+            <li>Diseño totalmente personalizado</li>
+            <li>Diseño totalmente responsive</li>
+            <li>Galerias Multimedia</li>
+            <li>Links a redes sociales</li>
+          </ul>
+          <button>+ info</button>
+        </div>
       </div>
       
      

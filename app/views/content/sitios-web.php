@@ -4,7 +4,7 @@
 ?>
 
 <main>
-<section class="manifiesto module">
+  <section class="manifiesto module">
     <h1>Desarrollo</h1>
     <p>Aqui encontrarás la información para que encuentres tu opción más adecuada. El mundo</p>
   </section>
@@ -34,7 +34,6 @@
             <li>Diseño totalmente responsive</li>
           </ul>
           <a class="button" href="/app/views/content/sitios/landing-basica">+ info</a>
-
       </div>
       </div>
       <div class="column is-one-quarter is-mobile">
@@ -48,8 +47,7 @@
             <li>3 opciones de diseño</li>
             <li>Diseño totalmente responsive</li>
           </ul>
-                    <a class="button" href="/app/views/content/sitios/landing-basica">+ info</a>
-
+          <a class="button" href="/app/views/content/sitios/landing-normal">+ info</a>
         </div>
       </div>
       <div class="column is-one-quarter is-mobile">
@@ -63,8 +61,7 @@
             <li>5 opciones de diseño</li>
             <li>Diseño totalmente responsive</li>
           </ul>
-                    <a class="button" href="/app/views/content/sitios/landing-basica">+ info</a>
-
+          <a class="button" href="/app/views/content/sitios/landing-completa">+ info</a>
         </div>
       </div>
       <div class="column is-one-quarter is-mobile">
@@ -78,12 +75,9 @@
             <li>Galerias Multimedia</li>
             <li>Links a redes sociales</li>
           </ul>
-                    <a class="button" href="/app/views/content/sitios/landing-basica">+ info</a>
-
+          <a class="button" href="/app/views/content/sitios/landing-Premium">+ info</a>
         </div>
       </div>
-      
-     
     </div>
   </section>
 
@@ -110,7 +104,7 @@
             <li>3 opciones de diseño</li>
             <li>Diseño totalmente responsive</li>
           </ul>
-          <a class="button" href="/app/views/content/sitios/landing-basica">+ info</a>
+          <a class="button" href="/app/views/content/sitios/sites-basico">+ info</a>
       </div>
       </div>
       <div class="column is-one-quarter is-mobile">
@@ -124,7 +118,7 @@
             <li>3 opciones de diseño</li>
             <li>Diseño totalmente responsive</li>
           </ul>
-          <a class="button" href="/app/views/content/sitios/landing-basica">+ info</a>
+          <a class="button" href="/app/views/content/sitios/sites-normal">+ info</a>
 
         </div>
       </div>
@@ -139,8 +133,7 @@
             <li>5 opciones de diseño</li>
             <li>Diseño totalmente responsive</li>
           </ul>
-                    <a class="button" href="/app/views/content/sitios/landing-basica">+ info</a>
-
+          <a class="button" href="/app/views/content/sitios/sites-completo">+ info</a>
         </div>
       </div>
       <div class="column is-one-quarter is-mobile">
@@ -154,12 +147,9 @@
             <li>Galerias Multimedia</li>
             <li>Links a redes sociales</li>
           </ul>
-                    <a class="button" href="/app/views/content/sitios/landing-basica">+ info</a>
-
+          <a class="button" href="/app/views/content/sitios/sites-premium">+ info</a>
         </div>
       </div>
-      
-     
     </div>
   </section>
 </main>

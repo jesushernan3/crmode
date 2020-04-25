@@ -4,9 +4,9 @@
 ?>
 
 <main class="container content">
-<section class="manifiesto module">
-    <h1>Landing PAge</h1>
-    <h2>Básica</h2>
+  <section class="manifiesto module">
+    <h1>Sitios Web</h1>
+    <h2>Premium</h2>
     <p>Esta opción es la ideal para salir al mundo de internet de la manera más rapida y económica. Tenga en cuenta que solamente concierne de la adaptación de una plantilla consu información. si usted busca opciones más personalizadas como colores, letras especificas, efectos, etc. entonces puede elijir otra opción más avanzada</p>
   </section>
 

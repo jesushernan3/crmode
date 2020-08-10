@@ -124,6 +124,7 @@ header {
   font-size: 5rem;
   font-weight: lighter;
   text-transform: uppercase;
+  color: #333;
 }
 .manifiesto h2 {
   font-size: 3rem;
@@ -363,18 +364,65 @@ input, textarea, .button {
 /*================================
  Media Queries
 ==================================*/
-@media (max-width: 1118px) {
+@media (max-width: 1152px /* Widescreen - Breakpoint */) {
 
 }
-@media (max-width: 856px) {
+@media (max-width: 960px /* Desktop - Breakpoint */) {
+
+}
+@media (max-width: 769px /* Table - Breakpoint */) {
   body {
     padding: 10px;
   }
   #envoltorio {
     padding: 0 15px;
   }
+  /*··························· Contenido  769*/
+  .manifiesto h1, .manifiesto h2 {
+    font-size: 3rem;
+  }
+  .manifiesto p {
+    font-size: 1.3rem;
+    margin: unset;
+  }
+  .module {
+    padding: 30px 0;
+  }
+  .caja-parrafo {
+    margin: 30px auto;
+  }
+  .module-subtitle {
+    margin: 0 0 30px;
+  }
+  .content ul > li::before {
+    content: "-";
+    width: 0.7em;
+  }
+  
+  /*··························· Categories  769*/
+  .product h2 {
+    font-size: 2rem;
+  }
+  .caja-parrafo {
+    text-align: left;
+  }
+  .a-partir::before {
+    right: 2px;
+    top: -7px;
+  }
+  .content h2:not(:first-child) {
+    font-size: 2rem;
+  }
+
+  /*··························· Footer 769  */
+  .contact-widget h4, .text-widget h4 {
+    margin-bottom: 30px;
+  }
+  .footer-bottom {
+    font-size: 0.9rem;
+  }
 }
-@media (max-width: 474px) {
+@media (max-width: 474px /* Small Mobile - Breakpoint */) {
   
   /*··························· Nav Bar  */
   .main-nav ul li.logo {
@@ -386,6 +434,7 @@ input, textarea, .button {
   }
 
   /*··························· Contenido  */
+  
   .module {
     padding: 50px 0;
   }
@@ -395,6 +444,7 @@ input, textarea, .button {
   .col-25 {
     width: 100%;
   }
+  
 
   /*··························· Footer  */
   

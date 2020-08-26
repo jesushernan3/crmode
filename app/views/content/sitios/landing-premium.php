@@ -50,11 +50,6 @@
     </div>
   </div>
  </section>
- <section class="module">
-   <h2>Precio: $1500</h2>
-   
- </section>
-
 
 </main>
 

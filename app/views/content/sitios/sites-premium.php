@@ -45,14 +45,10 @@
         <li>En aproximadamente 5 días hábiles tienes tu landing page</li>
       </ul>
       <h3 class="has-text-right">¿Qué costo tiene?</h3>
-      <h4 class="has-text-right">Precio final: $1500</h4>
+      <h4 class="has-text-right">Precio final: $10000</h4>
 
     </div>
   </div>
- </section>
- <section class="module">
-   <h2>Precio: $1500</h2>
-   
  </section>
 
 

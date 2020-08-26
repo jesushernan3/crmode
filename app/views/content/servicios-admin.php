@@ -31,7 +31,7 @@
             <li>Eliminación de contenido</li>
             <li>Analisis de código</li>
           </ul>
-          <a class="button" href="/app/views/content/servicios/crmode-basica">+ info</a>
+          <!-- <a class="button" href="/app/views/content/servicios/crmode-basica">+ info</a> -->
       </div>
       </div>
       <div class="column is-half is-mobile">
@@ -45,7 +45,7 @@
             <li>Analisis de código</li>
             <li>Cambio de tecnologia</li>
           </ul>
-          <a class="button" href="/app/views/content/servicios/crmode-completa">+ info</a>
+          <!-- <a class="button" href="/app/views/content/servicios/crmode-completa">+ info</a> -->
         </div>
       </div>
       
@@ -67,28 +67,27 @@
         <div class="frame d-flex-centered f-direction-column">
           <span class="icon-tools"></span>
           <h4>Administrativo - <span>Registro de Dominio</span></h4>
-          <h2 class="a-partir por-hora">$3500</h2>
+          <!-- <h2 class="a-partir por-hora">$3500</h2> -->
           <ul>
-            <li>Actualización de contenido</li>
-            <li>Eliminación de contenido</li>
-            <li>Analisis de código</li>
-            <li>Mejoramiento de código</li>
-            <li>Cambio de algunas tecnologias de código</li>
+            <li>busqueda de disponibilidad de dominio</li>
+            <li>alta de dominio</li>
+            <li>documentación del mismo</li>
+            <li>gestión de los dns para apuntar a tu hosting</li>
           </ul>
-          <a class="button" href="/app/views/content/servicios/servicios-dominio">+ info</a>
+          <!-- <a class="button" href="/app/views/content/servicios/servicios-dominio">+ info</a> -->
         </div>
       </div>
       <div class="column is-half is-mobile">
         <div class="frame d-flex-centered f-direction-column">
           <span class="icon-gears"></span>
           <h4>Administrativo - <span>Contratación de Hosting</span></h4>
-          <h2 class="a-partir por-hora">$5500</h2>
+          <!-- <h2 class="a-partir por-hora">$5500</h2> -->
           <ul>
             <li>Actualización de contenido</li>
             <li>Eliminación de contenido</li>
             <li>De sitios grandes</li>
           </ul>
-          <a class="button" href="/app/views/content/servicios/servicios-hosting">+ info</a>
+          <!-- <a class="button" href="/app/views/content/servicios/servicios-hosting">+ info</a> -->
         </div>
       </div>
     </div>
@@ -109,28 +108,33 @@
         <div class="frame d-flex-centered f-direction-column">
           <span class="icon-tools"></span>
           <h4>Completo - <span>Registro de Dominio y alta de hosting</span></h4>
-          <h2 class="a-partir por-hora">$3500</h2>
+          <!-- <h2 class="a-partir por-hora">$3500</h2> -->
           <ul>
-            <li>Actualización de contenido</li>
-            <li>Eliminación de contenido</li>
-            <li>Analisis de código</li>
-            <li>Mejoramiento de código</li>
-            <li>Cambio de algunas tecnologias de código</li>
+            <li>busqueda de disponibilidad de dominio</li>
+            <li>alta de dominio y hosting</li>
+            <li>documentación del mismo</li>
+            <li>gestión de los dns para apuntar a tu hosting</li>
+            <li>ajustes de hosting para poner en producción tu sitio</li>
           </ul>
-          <a class="button" href="/app/views/content/servicios/completo-dom-hos">+ info</a>
+          <!-- <a class="button" href="/app/views/content/servicios/completo-dom-hos">+ info</a> -->
         </div>
       </div>
       <div class="column is-half is-mobile">
         <div class="frame d-flex-centered f-direction-column">
           <span class="icon-gears"></span>
           <h4>Completo - <span>Dominio, Hostind y Administracions de Sitios Web</span></h4>
-          <h2 class="a-partir por-hora">$5500</h2>
+          <!-- <h2 class="a-partir por-hora">$5500</h2> -->
           <ul>
+            <li>busqueda de disponibilidad de dominio</li>
+            <li>alta de dominio y hosting</li>
+            <li>documentación del mismo</li>
+            <li>gestión de los dns para apuntar a tu hosting</li>
+            <li>ajustes de hosting para poner en producción tu sitio</li>
             <li>Actualización de contenido</li>
             <li>Eliminación de contenido</li>
             <li>De sitios grandes</li>
           </ul>
-          <a class="button" href="/app/views/content/servicios/completo-full">+ info</a>
+          <!-- <a class="button" href="/app/views/content/servicios/completo-full">+ info</a> -->
         </div>
       </div>
     </div>

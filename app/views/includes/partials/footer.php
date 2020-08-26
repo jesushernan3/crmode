@@ -12,7 +12,7 @@
     </section>
     <section class="column is-mobile text-widget">
       <h4>Acerca</h4>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit quo quas nihil quia eum omnis natus necessitatibus fugiat minus, excepturi voluptatem error nemo molestias deleniti suscipit, soluta perspiciatis doloremque asperiores.</p>
+      <p>Somos un grupo de freelancers que decidieron brindar sus años de experiencia en el sector tecnológico y ponerlo a disposición del marcado. Nuestra meta es seguir creciendo individualmente pero no perder la capacidad de ofrecer nuestros servicios a la comunidad. Este proyecto nace con esa intención.</p>
     </section>
     <!-- <div class="logo-footer title">Desarrollo para todos</div> -->
   </div>

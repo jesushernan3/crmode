@@ -382,7 +382,7 @@ input, textarea, .button {
     font-size: 3rem;
   }
   .manifiesto p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin: unset;
   }
   .module {
@@ -398,13 +398,40 @@ input, textarea, .button {
     content: "-";
     width: 0.7em;
   }
+  .main-nav ul li {
+    width: 120px;
+  }
+  .a-partir::before {
+    top: -10px;
+    width: 80px;
+  }
+  .por-hora::after {
+    font-size: 0.5em;
+    top: 32px;
+  }
+  /* vista producto 769 */
+  .content ul {
+    margin-left: 0.5em;
+  }
+  .content .articulo-info .columns .column > ul > li {
+    margin-bottom: 0.7rem;
+  }
+  .manifiesto h1, .manifiesto h2, .product h2 {
+    word-wrap: anywhere;
+  }
+  .manifiesto h1, .manifiesto h2 {
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  .product h2 {
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+  }
+
   
   /*··························· Categories  769*/
   .product h2 {
     font-size: 2rem;
-  }
-  .caja-parrafo {
-    text-align: left;
   }
   .a-partir::before {
     right: 2px;

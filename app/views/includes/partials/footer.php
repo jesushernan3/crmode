@@ -3,10 +3,10 @@
     <section class="column is-mobile contact-widget">
       <h4>Contacto</h4>
       <ul>
-        <li><span class="icon-map-pin"></span>Ciudad de Buenos Aires <br>
+        <li><span class="icon-map-pin"></span>Boedo, Ciudad de Buenos Aires <br>
             Prov. de Buenos Aires, <br>
             Argentina </li>
-        <li><span class="icon-phone"></span>941-388-7775</li>
+        <li><span class="icon-phone"></span>+549 11 2171-5239</li>
         <li><span class="icon-envelope"></span>info@crmode.com</li>
       </ul>
     </section>

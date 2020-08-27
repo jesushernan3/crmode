@@ -44,7 +44,7 @@
         <p>Simple, elegante y accesible.</p></div>
       <div class="column is-one-quarter is-mobile d-flex-centered f-direction-column servicio">
         <span class="icon-genius"></span>
-        <h4>Plugin y Cpntenido</h4>
+        <h4>Plugin y Contenido</h4>
         <p>Sumale a tus sitios funcionalidades adicionales.</p></div>
       <div class="column is-one-quarter is-mobile d-flex-centered f-direction-column servicio">
         <span class="icon-mobile"></span>

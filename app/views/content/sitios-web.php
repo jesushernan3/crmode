@@ -26,7 +26,7 @@
         <div class="frame d-flex-centered f-direction-column">
           <span class="icon-lightbulb"></span>
           <h4>Landing Page <span>Basica</span></h4>
-          <h2>$2000</h2>
+          <h2>$6.000</h2>
           <ul>
             <li>4 Secciones</li>
             <li>Links a redes sociales</li>
@@ -40,7 +40,7 @@
         <div class="frame d-flex-centered f-direction-column">
           <span class="icon-bike"></span>
           <h4>Landing Page <span>Normal</span></h4>
-          <h2>$3000</h2>
+          <h2>$8.000</h2>
           <ul>
             <li>5 Secciones</li>
             <li>Links a redes sociales</li>
@@ -54,7 +54,7 @@
         <div class="frame d-flex-centered f-direction-column">
           <span class="icon-tools"></span>
           <h4>Landing Page <span>Completa</span></h4>
-          <h2>$5000</h2>
+          <h2>$10.000</h2>
           <ul>
             <li>6 Secciones</li>
             <li>Links a redes sociales</li>
@@ -68,14 +68,14 @@
         <div class="frame d-flex-centered f-direction-column">
           <span class="icon-gears"></span>
           <h4>Landing Page <span>Premium</span></h4>
-          <h2 class="a-partir">$8000</h2>
+          <h2 class="a-partir">$15.000</h2>
           <ul>
             <li>Diseño totalmente personalizado</li>
             <li>Diseño totalmente responsive</li>
             <li>Galerias Multimedia</li>
             <li>Links a redes sociales</li>
           </ul>
-          <a class="button" href="/app/views/content/sitios/landing-Premium">+ info</a>
+          <a class="button" href="/app/views/content/sitios/landing-premium">+ info</a>
         </div>
       </div>
     </div>
@@ -97,7 +97,7 @@
         <div class="frame d-flex-centered f-direction-column">
           <span class="icon-lightbulb"></span>
           <h4>Sitio Web <span>Basica</span></h4>
-          <h2>$3000</h2>
+          <h2>$6.000</h2>
           <ul>
             <li>4 Secciones</li>
             <li>Links a redes sociales</li>
@@ -111,7 +111,7 @@
         <div class="frame d-flex-centered f-direction-column">
           <span class="icon-bike"></span>
           <h4>Sitio Web <span>Normal</span></h4>
-          <h2>$4000</h2>
+          <h2>$8.000</h2>
           <ul>
             <li>5 Secciones</li>
             <li>Links a redes sociales</li>
@@ -126,7 +126,7 @@
         <div class="frame d-flex-centered f-direction-column">
           <span class="icon-tools"></span>
           <h4>Sitio Web <span>Completa</span></h4>
-          <h2>$6000</h2>
+          <h2>$10.000</h2>
           <ul>
             <li>6 Secciones</li>
             <li>Links a redes sociales</li>
@@ -140,7 +140,7 @@
         <div class="frame d-flex-centered f-direction-column">
           <span class="icon-gears"></span>
           <h4>Sitio Web <span>Premium</span></h4>
-          <h2 class="a-partir">$10000</h2>
+          <h2 class="a-partir">$15.000</h2>
           <ul>
             <li>Diseño totalmente personalizado</li>
             <li>Diseño totalmente responsive</li>

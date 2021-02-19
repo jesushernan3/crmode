@@ -191,7 +191,13 @@ text-align: center;
 }
 .is-half .frame.caja-parrafo h2,
 .is-half .frame.caja-parrafo a {
-	margin: 20px 0;
+  margin: 20px 0;
+  padding: 10px;
+}
+.is-half .frame.caja-parrafo .button {
+  white-space: normal;
+  margin: 10px;
+  box-sizing: content-box;
 }
 .is-half .frame.caja-parrafo h2 {
   text-transform: uppercase;
@@ -360,7 +366,11 @@ input, textarea, .button {
 .field {
   margin-bottom: 25px;
 }
-
+/* :::::::::: MODAL :::::::::: */
+.modal-content {
+	background: white;
+	padding: 2rem;
+}
 /*================================
  Media Queries
 ==================================*/

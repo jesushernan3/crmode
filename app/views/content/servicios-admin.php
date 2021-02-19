@@ -122,7 +122,7 @@
       <div class="column is-half is-mobile">
         <div class="frame d-flex-centered f-direction-column">
           <span class="icon-gears"></span>
-          <h4>Completo - <span>Dominio, Hostind y Administracions de Sitios Web</span></h4>
+          <h4>Completo - <span>Dominio, Hosting y Administracions de Sitios Web</span></h4>
           <!-- <h2 class="a-partir por-hora">$5500</h2> -->
           <ul>
             <li>busqueda de disponibilidad de dominio</li>

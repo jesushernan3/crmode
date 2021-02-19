@@ -59,14 +59,14 @@
       <div class="frame caja-parrafo">
         <span class="icon-presentation"></span>
         <h2>Sitios Web</h2>
-        <a href="app/views/content/sitios-web">+ información de los precios aqui</a>
+        <a class="button" href="app/views/content/sitios-web">+ información de los precios aqui</a>
       </div>
     </div>
     <div class="column is-half">
       <div class="frame caja-parrafo">
       <span class="icon-pencil"></span>
         <h2>Servicios Administrativo</h2>
-        <a href="app/views/content/servicios-admin">+ información de los precios aqui</a>
+        <a class="button" href="app/views/content/servicios-admin">+ información de los precios aqui</a>
       </div>
     </div>
     </div>

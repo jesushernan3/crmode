@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Ephesis&family=Outfit:wght@100..900&family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Ephesis&family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&family=Prata&display=swap');
+
+@import "tailwindcss";
+@import 'lenis/dist/lenis.css'
+
+@theme {
+  --font-display: "Cardo", "sans-serif"; 
+  --font-display: "Figtree", "sans-serif"; 
+}

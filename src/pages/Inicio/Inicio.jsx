@@ -1,4 +1,4 @@
-import React from "react";
+import { useRef, React } from "react";
 import Navbar from "../../components/ui/Navbar";
 import Precios from "../Precios/Precios";
 import Portfolio from "../Portfolio/Portfolio";
@@ -13,7 +13,7 @@ const Inicio = () => {
           <p className="font-extrabold  text-4xl mb-5">
             Vamos derecho al grano!
           </p>
-          <p className="text-6xl">¿Que Precisas?</p>
+          <p className="text-6xl">¿Que Precisas? dale apurate</p>
         </div>
       </section>
       <section className="min-h-[500px] flex justify-center items-center">

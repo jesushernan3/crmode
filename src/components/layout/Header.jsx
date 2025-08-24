@@ -3,7 +3,7 @@ import Navbar from "../ui/Navbar";
 
 const Header = () => {
   return (
-    <div>
+    <div className="header pr-[5%] pl-[5%] shadow-both-sides">
       <Navbar />
     </div>
   );

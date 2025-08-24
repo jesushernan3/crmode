@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const TileEffectCard = () => {
+const TileEffectCard = ({ title, text, backgroundgradient }) => {
   const [tilt, setTilt] = useState({ x: 0, y: 0 });
 
   // Adjust the threshold value to control the tilt effect
@@ -16,7 +16,7 @@ const TileEffectCard = () => {
 
   return (
     <div
-      className="rounded-xl shadow-xl overflow-hidden transition-transform duration-200 ease-out cursor-pointer max-w-96 bg-white"
+      className={`rounded-xl shadow-xl overflow-hidden transition-transform duration-200 ease-out cursor-pointer max-w-96 bg-linear-to-t ${backgroundgradient}`}
       onMouseMove={handleMove}
       onMouseLeave={() => setTilt({ x: 0, y: 0 })}
       style={{
@@ -28,13 +28,10 @@ const TileEffectCard = () => {
         alt="City skyline"
         className="w-full h-52 object-cover"
       />
-      <h3 className="mt-3 px-4 pt-3 mb-1 text-lg font-semibold text-gray-800">
-        Interactive City Card
+      <h3 className="mt-3 px-4 pt-3 mb-1 text-lg font-semibold text-gray-200">
+        {title}
       </h3>
-      <p className="text-sm px-4 pb-6 text-gray-600 w-5/6">
-        Move your cursor over this card to experience a smooth 3D tilt
-        animation, bringing depth and interactivity to your UI.
-      </p>
+      <p className="text-sm px-4 pb-6 text-gray-400 w-5/6">{text}</p>
     </div>
   );
 };

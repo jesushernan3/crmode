@@ -1,33 +1,43 @@
 import React from "react";
+// import Lottie from "./Lottie";
 
 const Hero = () => {
   return (
-    <div className="container mx-auto h-screen bg-primary grid grid-cols-3 justify-center items-center gap-3 p-5 font-figtree">
+    <div
+      id="hero"
+      className="mx-10 min-h-screen grid grid-cols-3 justify-center items-center gap-3 p-5 font-figtree"
+    >
       <div className="izquierda col-span-2">
-        <h1 className="font-extrabold  text-6xl mb-5 font-figtree">
+        <h1 className="font-extrabold  text-4xl mb-5 font-figtree">
           Necesitas tres cosas:{" "}
         </h1>
-        <ul className="text-3xl">
+        <ul className="text-6xl">
           <li>1ro. Que cargue rápido</li>
           <li>2do. Que ande</li>
           <li>3ro. Que no se rompa.</li>
         </ul>
       </div>
 
-      <div className="border rounded-2xl m-5 h-full flex flex-col justify-center derecha p-5 bg-linear-to-bl from-violet-500 to-fuchsia-500">
-        <h1 className="mx-auto font-cardo text-5xl mb-5">CRMODE</h1>
-        <p>
-          A veces la cosa más fácil es la más dificl, no complicarsela es un
-          requisito hoy en día para logra metas. Simplificar los precesos y
-          hacerte la vida menos complicada con el desarrollo, es mi propuesta.
-        </p>
+      <div className="border rounded-2xl  w-full h-full flex flex-col justify-center derecha p-8 bg-linear-to-bl from-violet-500 to-fuchsia-500">
+        <div className="">
+          <span className="bg-black text-white px-4 py-2 rounded-3xl">
+            • comienza hoy
+          </span>
+        </div>
+        <h1 className="mt-20 font-bold text-5xl mb-5">
+          <span className="font-cardo text-3xl">Unite a...</span>
+          <br />
+          CRMODE
+        </h1>
+        <p>Simplifica todo, una subscripción, sin contratos, ni quilombos</p>
         <button
           type="button"
-          class="w-full py-3 mt-5 active:scale-95 transition text-sm text-white rounded-full bg-indigo-500"
+          class="w-full py-3 mt-5 active:scale-95 transition text-sm text-gray rounded-lg bg-white"
         >
-          <p class="mb-0.5">Como Lograrlo!</p>
+          <p class="mb-0.5">Ver precios</p>
         </button>
       </div>
+      <div>{/* <Lottie /> */}</div>
     </div>
   );
 };

@@ -3,21 +3,32 @@ import TileEffectCard from "../components/ui/TileEffectCard";
 
 const Formas = () => {
   return (
-    <section id="formas" className="p-10">
+    <section id="formas">
       <div>
-        <h2 className="text-5xl">
-          La forma en que el diseño debería haberse hecho en primer lugar
+        <h2 className="max-w-[670px] text-5xl w-200 mx-auto text-center">
+          La forma en que el diseño{" "}
+          <span className="font-ephesis">debería haberse hecho</span> en primer
+          lugar
         </h2>
-        <p>
-          CrMoDe reemplaza a trabajadores independientes poco confiables y
-          agencias costosas por una tarifa mensual fija, con diseños entregados
-          tan rápido que no querrás ir a ningún otro lado.
-        </p>
       </div>
-      <div className="flex justify-between">
-        <TileEffectCard />
-        <TileEffectCard />
-        <TileEffectCard />
+      <div className="grid grid-cols-3 gap-5">
+        <TileEffectCard
+          title={"Subscribirce"}
+          text={"Suscríbete a un plan y solicita tantos diseños como quieras."}
+          backgroundgradient={"blue-gradient"}
+        />
+        <TileEffectCard
+          title={"Pedido"}
+          text={
+            "Solicita lo que quieras, desde aplicaciones móviles hasta logotipos."
+          }
+          backgroundgradient={"pink-gradient"}
+        />
+        <TileEffectCard
+          title={"Recibir"}
+          text={"Receive your design within two business days on average."}
+          backgroundgradient={"green-gradient"}
+        />
       </div>
     </section>
   );

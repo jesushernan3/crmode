@@ -3,10 +3,10 @@ import React, { useState } from "react";
 function AccordionMenu({ title, answer }) {
   const [accordionOpen, setAccordionOpen] = useState(false);
   return (
-    <div className="py-2">
+    <div className="py-3 font-general">
       <button
         onClick={() => setAccordionOpen(!accordionOpen)}
-        className="flex justify-between w-full"
+        className="flex justify-between w-full pb-2"
       >
         <span>{title}</span>
 
@@ -38,7 +38,7 @@ function AccordionMenu({ title, answer }) {
         </svg>
       </button>
       <div
-        className={`grid overflow-hidden transition-all duration-300 ease-in-out text-slate-600 text-sm ${
+        className={`grid overflow-hidden transition-all duration-300 ease-in-out text-slate-500 text-sm ${
           accordionOpen
             ? "grid-rows-[1fr] opacity-100"
             : "grid-rows-[0fr] opacity-0"

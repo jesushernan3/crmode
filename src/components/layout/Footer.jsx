@@ -2,24 +2,48 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="flex justify-center items-center bg-gray-800 min-h-25 text-white">
-      <div className="basis-2/3 bg-amber-300">
-        <img src="https://picsum.photos/200/300" alt="image" />
-        <h2>
-          Vea si Designjoy es la opción adecuada para usted (totalmente lo es)
-        </h2>
-        <p>
-          Programe una visita guiada rápida de 15 minutos a través de Designjoy.
-        </p>
-        <img src="https://picsum.photos/400/300" alt="" />
-        <ul className="text-sm flex justify-between">
-          <li>Headquartered in Villa Yacanto de Calamuchita, Cordoba</li>
-          <li>Terminos del Servicio</li>
-          <li>Política de pricavidad</li>
-        </ul>
+    <footer className="border-t-4 border-white py-8 px-5 sm:px-8">
+      <div className="max-w-7xl mx-auto flex items-center justify-between">
+        <div className="text-base sm:text-lg font-extrabold">
+          © 2024 BRUTAL.DEV
+        </div>
+        <div className="flex items-center gap-6">
+          <a
+            href="#"
+            className="text-base sm:text-lg font-semibold hover:underline"
+            style={{
+              textUnderlineOffset: 4,
+              textDecorationThickness: 2,
+              textDecorationColor: "#B26CFF",
+            }}
+          >
+            TWITTER
+          </a>
+          <a
+            href="#"
+            className="text-base sm:text-lg font-semibold hover:underline"
+            style={{
+              textUnderlineOffset: 4,
+              textDecorationThickness: 2,
+              textDecorationColor: "#B26CFF",
+            }}
+          >
+            GITHUB
+          </a>
+          <a
+            href="#"
+            className="text-base sm:text-lg font-semibold hover:underline"
+            style={{
+              textUnderlineOffset: 4,
+              textDecorationThickness: 2,
+              textDecorationColor: "#B26CFF",
+            }}
+          >
+            LINKEDIN
+          </a>
+        </div>
       </div>
-      <div className="basis-1/3 bg-indigo-500">derecha</div>
-    </div>
+    </footer>
   );
 };
 

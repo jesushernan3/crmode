@@ -5,9 +5,124 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CrMoDe - en React</title>
+    <link id="all-fonts-link-font-geist" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-geist">.font-geist { font-family: 'Geist', sans-serif !important; }</style><link id="all-fonts-link-font-roboto" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-roboto">.font-roboto { font-family: 'Roboto', sans-serif !important; }</style><link id="all-fonts-link-font-montserrat" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-montserrat">.font-montserrat { font-family: 'Montserrat', sans-serif !important; }</style><link id="all-fonts-link-font-poppins" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-poppins">.font-poppins { font-family: 'Poppins', sans-serif !important; }</style><link id="all-fonts-link-font-playfair" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;900&amp;display=swap"><style id="all-fonts-style-font-playfair">.font-playfair { font-family: 'Playfair Display', serif !important; }</style><link id="all-fonts-link-font-instrument-serif" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:wght@400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-instrument-serif">.font-instrument-serif { font-family: 'Instrument Serif', serif !important; }</style><link id="all-fonts-link-font-merriweather" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&amp;display=swap"><style id="all-fonts-style-font-merriweather">.font-merriweather { font-family: 'Merriweather', serif !important; }</style><link id="all-fonts-link-font-bricolage" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-bricolage">.font-bricolage { font-family: 'Bricolage Grotesque', sans-serif !important; }</style><link id="all-fonts-link-font-jakarta" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;display=swap"><style id="all-fonts-style-font-jakarta">.font-jakarta { font-family: 'Plus Jakarta Sans', sans-serif !important; }</style><link id="all-fonts-link-font-manrope" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&amp;display=swap"><style id="all-fonts-style-font-manrope">.font-manrope { font-family: 'Manrope', sans-serif !important; }</style><link id="all-fonts-link-font-space-grotesk" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-space-grotesk">.font-space-grotesk { font-family: 'Space Grotesk', sans-serif !important; }</style><link id="all-fonts-link-font-work-sans" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&amp;display=swap"><style id="all-fonts-style-font-work-sans">.font-work-sans { font-family: 'Work Sans', sans-serif !important; }</style><link id="all-fonts-link-font-pt-serif" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&amp;display=swap"><style id="all-fonts-style-font-pt-serif">.font-pt-serif { font-family: 'PT Serif', serif !important; }</style><link id="all-fonts-link-font-geist-mono" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-geist-mono">.font-geist-mono { font-family: 'Geist Mono', monospace !important; }</style><link id="all-fonts-link-font-space-mono" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&amp;display=swap"><style id="all-fonts-style-font-space-mono">.font-space-mono { font-family: 'Space Mono', monospace !important; }</style><link id="all-fonts-link-font-quicksand" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-quicksand">.font-quicksand { font-family: 'Quicksand', sans-serif !important; }</style><link id="all-fonts-link-font-nunito" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&amp;display=swap"><style id="all-fonts-style-font-nunito">.font-nunito { font-family: 'Nunito', sans-serif !important; }</style>
+    
   </head>
-  <body>
+  <body class="min-h-screen bg-black text-white overflow-x-hidden" style="font-family:'JetBrains Mono', monospace;">
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script>
+    // Accent color
+    const ACCENT = '#B26CFF';
+
+    // Glitch effect (hover + occasional jitter)
+    const glitchEls = document.querySelectorAll('.js-glitch');
+    glitchEls.forEach(el => {
+      let hoverTimer = null;
+      el.addEventListener('mouseenter', () => {
+        let c = 0;
+        hoverTimer = setInterval(() => {
+          const x = (Math.random() * 6 - 3);
+          const y = (Math.random() * 6 - 3);
+          el.style.transform = `translate(${x}px, ${y}px)`;
+          if (++c > 10) c = 0;
+        }, 40);
+      });
+      el.addEventListener('mouseleave', () => {
+        clearInterval(hoverTimer);
+        el.style.transform = 'translate(0,0)';
+      });
+    });
+    window.addEventListener('scroll', () => {
+      glitchEls.forEach(el => {
+        if (Math.random() > 0.985) {
+          const x = (Math.random() * 4 - 2);
+          const y = (Math.random() * 4 - 2);
+          el.style.transform = `translate(${x}px, ${y}px)`;
+          setTimeout(() => (el.style.transform = 'translate(0,0)'), 100);
+        }
+      });
+    });
+
+    // Typewriter with blinking caret
+    const typeEl = document.querySelector('.js-typewriter');
+    if (typeEl) {
+      const text = 'EXPERIENCIAS DIGITALES SIN FILTROS PARA MARCAS INTRÉPIDAS';
+      let i = 0;
+      const type = () => {
+        if (i <= text.length) {
+          typeEl.textContent = text.slice(0, i++);
+          setTimeout(type, 22);
+        }
+      };
+      type();
+      setInterval(() => {
+        const current = typeEl.style.borderRightColor;
+        typeEl.style.borderRightColor = current === 'transparent' ? ACCENT : 'transparent';
+      }, 500);
+    }
+
+    // Random flash blocks
+    const flashEls = document.querySelectorAll('.js-flash');
+    setInterval(() => {
+      flashEls.forEach(el => {
+        if (Math.random() > 0.7) {
+          const original = el.style.backgroundColor || ACCENT;
+          el.style.backgroundColor = '#FFFFFF';
+          setTimeout(() => { el.style.backgroundColor = original; }, 110);
+        }
+      });
+    }, 1800);
+
+    // Respect accent on hover outlines for keyboard users
+    document.querySelectorAll('button,a').forEach(el => {
+      el.addEventListener('focus', () => { el.style.outline = `3px solid ${ACCENT}`; el.style.outlineOffset = '2px'; });
+      el.addEventListener('blur', () => { el.style.outline = 'none'; });
+    });
+
+    // Accordion
+    document.querySelectorAll('[id^="faq-btn-"]').forEach(btn => {
+      const panelId = btn.getAttribute('aria-controls');
+      const panel = document.getElementById(panelId);
+      const icon = btn.querySelector('.js-accordion-icon');
+
+      // Ensure closed on load
+      btn.setAttribute('aria-expanded', 'false');
+      if (panel) {
+        panel.style.maxHeight = '0px';
+        panel.style.opacity = '0.8';
+      }
+
+      btn.addEventListener('click', () => {
+        const isOpen = btn.getAttribute('aria-expanded') === 'true';
+        // Close all others for single-open behavior
+        document.querySelectorAll('[id^="faq-btn-"]').forEach(otherBtn => {
+          const otherPanel = document.getElementById(otherBtn.getAttribute('aria-controls'));
+          const otherIcon = otherBtn.querySelector('.js-accordion-icon');
+          if (otherBtn !== btn) {
+            otherBtn.setAttribute('aria-expanded', 'false');
+            if (otherPanel) {
+              otherPanel.style.maxHeight = '0px';
+              otherPanel.style.opacity = '0.8';
+            }
+            if (otherIcon) otherIcon.style.transform = 'rotate(0deg)';
+          }
+        });
+
+        // Toggle current
+        btn.setAttribute('aria-expanded', String(!isOpen));
+        if (!isOpen) {
+          panel.style.maxHeight = panel.scrollHeight + 'px';
+          panel.style.opacity = '1';
+          if (icon) icon.style.transform = 'rotate(180deg)';
+        } else {
+          panel.style.maxHeight = '0px';
+          panel.style.opacity = '0.8';
+          if (icon) icon.style.transform = 'rotate(0deg)';
+        }
+      });
+    });
+  </script>
+    
   </body>
 </html>
